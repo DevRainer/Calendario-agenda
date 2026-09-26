@@ -19,7 +19,7 @@ body {
 #anotacoes {
   width: 90%;
   max-width: 1000px;
-  background: #8caeb3;
+  background: #215057;
   border-radius: 10px;
   box-shadow: 0 0 10px #ccc;
   padding: 20px;
@@ -66,7 +66,7 @@ body {
 }
 
 #dias div.hoje:hover {
-  background: #24575a;
+  background: #1343c7;
 }
 
 #anotacoes {
@@ -76,6 +76,7 @@ body {
 }
 
 .head-anotacoes {
+  font-size: 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -87,6 +88,13 @@ body {
   height: 50px;
   margin-top: 0;
   flex-shrink: 0;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px;
+}
+#anotacoes button:hover {
+  background-color: #2e66cf; /* cor ao passar o mouse */
+  color: #fff; /* muda a cor do texto */
 }
 
 .linha-horario {
