@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calendário com Anotações</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calendario-container">
+    <div id="calendario-header">
+      <button onclick="mudarMes(-1)">◀</button>
+      <h2 id="mes-ano"></h2>
+      <button onclick="mudarMes(1)">▶</button>
+    </div>
+    <div id="dias-semana"></div>
+    <div id="dias"></div>
+  </div>
+
+  <div id="anotacoes">
+    <h3>Anotações para <span id="data-selecionada">...</span></h3>
+    <textarea id="texto-anotacao" placeholder="Escreva aqui..."></textarea>
+    <button onclick="salvarAnotacao()">Salvar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
