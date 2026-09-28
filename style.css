@@ -2,18 +2,18 @@
 body {
   font-family: Arial, sans-serif;
   display: flex;
-
-  flex-direction: row;
-  align-items: center;
+  flex-direction: row; /* organiza em coluna */
+  justify-content: center; /* centraliza verticalmente */
+  align-items: center;     /* centraliza horizontalmente */
   margin: 0;
   padding: 20px;
+  height: 100vh; /* ocupa toda a altura da tela */
   background-image: url(./img/image-logo.jpeg);
-  background-size: cover;
-  /* Preenche toda a área */
-  background-position: center;
-  /* Centraliza a imagem */
-  background-repeat: no-repeat;
+  background-size: cover;       /* preenche toda a área */
+  background-position: center;  /* centraliza a imagem */
+  background-repeat: no-repeat; /* evita repetição */
 }
+
 
 .calendario-container,
 #anotacoes {
